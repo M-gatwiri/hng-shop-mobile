@@ -2,6 +2,7 @@
   "expo": {
     "name": "hng-shop-mobile",
     "slug": "hng-shop-mobile",
+    "scheme": "hngshopmobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,10 +16,19 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.mercygatwiri.hngshopmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a97f343e-6285-4069-8872-c6eeed5f55cd"
+      }
     }
   }
 }
